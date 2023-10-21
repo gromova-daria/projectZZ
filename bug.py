@@ -34,9 +34,7 @@ def button1_click():
     
 button1 = tk.Button(root, text="ok",font="Courier 10",command=button1_click)
 button1.place(x=355, y=180)
-def go_click():
-    root.destroy()
-    import bug
+
 
 def buttonw_click():
     sex='ж'
